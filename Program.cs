@@ -112,7 +112,7 @@ namespace PacmanConsoleCSStudia
         {
             while (!Program.isGameOver)
             {
-                if(Program.score >= 15)
+                if(Program.score >= 100)
                 {
                     Console.SetCursorPosition(50, 14);
                     Console.Write("Wygrałeś!");
